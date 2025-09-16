@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Cypress generated files and folders
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/ # If using a reporting tool that generates output here
+
+# Environment specific files
+cypress.env.json # If storing sensitive environment variables
+
+# Editor and OS specific files
+.DS_Store
+.vscode/
+.idea/
+
+# Log files
+*.log
