@@ -7,8 +7,8 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: "https://demoqa.com",
     specPattern: "cypress/e2e/features/**/*.feature",
-    supportFile: false,
-    stepDefinitions: "cypress/e2e/step_definitions/**/*.{js,ts}",
+     supportFile: 'cypress/support/e2e.js',
+    stepDefinitions: "cypress/e2e/features/**/*.{js,ts}",
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
       on(
