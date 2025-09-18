@@ -3,10 +3,10 @@
     "@badeball/cypress-cucumber-preprocessor": "^23.1.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
     "@cucumber/cucumber": "^12.2.0",
+    "@faker-js/faker": "^10.0.0",
     "cypress": "^15.2.0",
     "esbuild": "^0.25.10"
   },
-
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/e2e/step_definitions",
     "nonGlobalStepDefinitions": false
